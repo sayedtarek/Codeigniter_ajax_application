@@ -1,0 +1,10 @@
+
+//create table
+CREATE TABLE `ajax_assign`.`base` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `category` VARCHAR(255) NOT NULL , `sub_cat` VARCHAR(255) NOT NULL , `sub_sub` VARCHAR(255) NOT NULL , `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , `updated_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+
+// insert 
+ INSERT INTO `base` (`id`, `category`, `sub_cat`, `sub_sub`, `created_at`, `updated_at`) VALUES (NULL, 'category A', 'sub_cat A', 'sub_sub A', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP), (NULL, 'category B', 'sub_cat B', 'sub_sub B', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
+
+
